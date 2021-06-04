@@ -32,4 +32,4 @@ $ npm run dev
 $ npm run generate
 ```
 
-新修改的数据
+新修改的数据2，要记得步骤！
