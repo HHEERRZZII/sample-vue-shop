@@ -1,5 +1,5 @@
 import Vuex from "vuex"
-
+//这里没有后端数据，所以在全局变量里设置数据，要特别注意，master分支内容悄悄放在这里！
 const createStore = () => {
   return new Vuex.Store({
     state: {

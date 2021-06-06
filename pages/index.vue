@@ -31,7 +31,7 @@ export default {
       highprice: 300
     };
   },
-  computed: {
+  computed: {//这里的数据是从vuex的全局函数里面来的，这里是计算属性
     products() {
       return this.$store.state.products.filter(el =>
         this.$store.state.sale
